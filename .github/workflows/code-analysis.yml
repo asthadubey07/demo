@@ -1,0 +1,46 @@
+name: CI - Roslyn Analyzers
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Find Changed C# Files
+        id: changed-files
+        run: |
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- '*.cs')
+          if [[ -z "$CHANGED_FILES" ]]; then
+            echo "No C# files changed. Skipping build."
+            exit 0
+          fi
+          echo "Changed files: $CHANGED_FILES"
+
+      - name: Find Project Files
+        id: find-projects
+        run: |
+          PROJECT_FILES=$(echo "$CHANGED_FILES" | xargs -n1 dirname | sort -u | xargs -n1 find . -name '*.csproj')
+          if [[ -z "$PROJECT_FILES" ]]; then
+            echo "No project files found. Skipping build."
+            exit 0
+          fi
+          echo "Projects to build: $PROJECT_FILES"
+
+      - name: Build with Roslyn Analyzers
+        run: |
+          for proj in $PROJECT_FILES; do
+            dotnet build "$proj" --configuration Debug --warnaserror
+          done
