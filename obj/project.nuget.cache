@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZR2JxVIKHI4=",
+  "dgSpecHash": "4Fjq7sFtVO4=",
   "success": true,
   "projectFilePath": "C:\\Roslyn Analyzer Demo Project\\Roslyn Analyzer Demo Project\\Roslyn Analyzer Demo Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADwivedi\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.2\\microsoft.codeanalysis.fxcopanalyzers.3.3.2.nupkg.sha512",
+    "C:\\Users\\ADwivedi\\.nuget\\packages\\microsoft.codeanalysis.netanalyzers\\9.0.0\\microsoft.codeanalysis.netanalyzers.9.0.0.nupkg.sha512",
     "C:\\Users\\ADwivedi\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.2\\microsoft.codeanalysis.versioncheckanalyzer.3.3.2.nupkg.sha512",
     "C:\\Users\\ADwivedi\\.nuget\\packages\\microsoft.codequality.analyzers\\3.3.2\\microsoft.codequality.analyzers.3.3.2.nupkg.sha512",
     "C:\\Users\\ADwivedi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
