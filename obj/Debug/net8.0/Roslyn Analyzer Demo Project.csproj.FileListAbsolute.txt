@@ -1,0 +1,36 @@
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\appsettings.Development.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\appsettings.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.staticwebassets.endpoints.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.exe
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.deps.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.runtimeconfig.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Roslyn Analyzer Demo Project.pdb
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.csproj.AssemblyReference.cache
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.AssemblyInfoInputs.cache
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.AssemblyInfo.cs
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.csproj.CoreCompileInputs.cache
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.MvcApplicationPartsAssemblyInfo.cs
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\scopedcss\bundle\Roslyn Analyzer Demo Project.styles.css
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets\msbuild.Roslyn Analyzer Demo Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets\msbuild.Roslyn Analyzer Demo Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Roslyn Analyzer Demo Project.props
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Roslyn Analyzer Demo Project.props
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Roslyn Analyzer Demo Project.props
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn A.0750BEC1.Up2Date
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\refint\Roslyn Analyzer Demo Project.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.pdb
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.genruntimeconfig.cache
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\ref\Roslyn Analyzer Demo Project.dll

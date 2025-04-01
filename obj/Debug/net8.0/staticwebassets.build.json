@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kRwjV7aRx9fWGYKwrElspX5CEqMAvpZd1LDp39JHApQ=",
+  "Source": "Roslyn Analyzer Demo Project",
+  "BasePath": "_content/Roslyn Analyzer Demo Project",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
