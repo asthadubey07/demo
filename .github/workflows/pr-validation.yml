@@ -1,52 +1,45 @@
-name: PR Code Quality Check
+  name: PR Code Quality Check
 
-on:
-  pull_request:
-    paths:
-      - '**/*.cs'
+  on:
+    pull_request:
+      paths:
+        - '**/*.cs'
 
-jobs:
-  analyze:
-    runs-on: ubuntu-latest
+  jobs:
+    analyze:
+      runs-on: ubuntu-latest
 
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      steps:
+        - name: Checkout code
+          uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 8.0.x
+        - name: Setup .NET SDK
+          uses: actions/setup-dotnet@v4
+          with:
+            dotnet-version: '8.0.x'
 
-    - name: Restore dependencies
-      run: dotnet restore
+        - name: Restore dependencies
+          run: dotnet restore
 
-    - name: Build solution
-      run: dotnet build --no-restore
+        - name: Build
+          run: dotnet build --no-restore
 
-    - name: Analyze modified C# files
-      run: |
-        # Fetch the list of added or modified .cs files in the PR
-        CHANGED_FILES=$(git diff --name-only --diff-filter=AM ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- '*.cs')
-        
-        if [[ -z "$CHANGED_FILES" ]]; then
-          echo "No C# files were modified or added in this PR."
-          exit 0
-        fi
+        - name: Analyze modified files
+          run: |
+            # Fetch the list of added or modified .cs files in the PR
+            CHANGED_FILES=$(git diff --name-only --diff-filter=AM ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- '*.cs')
+            if [[ -z "$CHANGED_FILES" ]]; then
+              echo "No C# files were modified or added in this PR."
+              exit 0
+            fi
 
-        # Create a temporary solution to analyze only the changed files
-        TEMP_SOLUTION="TempSolution.sln"
-        dotnet new sln -n $TEMP_SOLUTION
-
-        for file in $CHANGED_FILES; do
-          # Find the project file associated with the changed file
-          PROJECT_FILE=$(dirname "$file")/$(basename "$(dirname "$file")").csproj
-          if [[ -f "$PROJECT_FILE" ]]; then
-            # Add the project to the temporary solution if not already added
-            dotnet sln $TEMP_SOLUTION list | grep -q "$PROJECT_FILE" || dotnet sln $TEMP_SOLUTION add "$PROJECT_FILE"
-          fi
-        done
-
-        # Run the build with analyzers enabled on the temporary solution
-        dotnet build $TEMP_SOLUTION --no-restore --warnaserror
-      shell: bash
+            # Run the analyzers on each changed file
+            for file in $CHANGED_FILES; do
+              echo "Analyzing $file"
+              dotnet build --no-restore --no-incremental /p:AnalysisMode=Current /p:AnalysisLevel=latest /warnaserror
+              if [ $? -ne 0 ]; then
+                echo "Code analysis failed for $file. Please address the issues before merging."
+                exit 1
+              fi
+            done
+          shell: bash
