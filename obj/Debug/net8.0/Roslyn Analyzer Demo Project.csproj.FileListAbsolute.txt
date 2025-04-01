@@ -34,3 +34,4 @@ C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\re
 C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.pdb
 C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.genruntimeconfig.cache
 C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\ref\Roslyn Analyzer Demo Project.dll
+C:\Roslyn Analyzer Demo Project\Roslyn Analyzer Demo Project\obj\Debug\net8.0\Roslyn Analyzer Demo Project.sourcelink.json
