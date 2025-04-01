@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Roslyn Analyzer Demo Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75eb275d2a27e6100a5e199b1434b6917ca2776")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+826a34fb5fba3f82259a4dc8acd7030338a56fd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Roslyn Analyzer Demo Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Roslyn Analyzer Demo Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
